@@ -16,7 +16,7 @@ public class Constants {
     public static final String MY_PLAYLIST = "//span[@class=\"o4KVKZmeHsoRZ2Ltl078\"]";
     public static final String CHANGE_PLAYLIST_NAME = "//input[@data-testid='playlist-edit-details-name-input']";
     public static final String SAVE_BUTTON = "//div[@class='Up_Ke_BKTraatSMY_Po_']";
-    public static final String COMPARE_PLAYLIST = "//*[@class='Type__TypeElement-goli3j-0 beQQox']";
+    public static final String COMPARE_PLAYLIST = "(//*[@data-testid='rootlist-item'])[2]";
 
     public static final String SEARCH_BUTTON = "//a[@href='/search']";
     public static final String SEARCH_SONG_NAME = "//input[@data-testid='search-input']";
